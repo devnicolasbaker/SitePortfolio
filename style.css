@@ -175,7 +175,37 @@ nav{
 /*------------------------ Portfolio comeca aqui ------------------------*/
 
 #portfolio{
-    background-color: rgb(228, 228, 228);
+    background-color: #eff7ff;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+#titlePortfolio{
+    color: #012B5C;
+    margin: 20px auto;
+    font-size: 2em;
+    text-shadow: 2px 4px 10px rgba(0, 0, 0, 0.488);
+}
+
+.portfolioWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 100px;
+}
+
+.portfolioTitle{
+    margin-top: 20px;
+    color: #000000;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+#portfolioImagem{
+    height: 400px;
+    width: 800px;
+    margin-top: 30px;
 }
 
 /*------------------------ Contato comeca aqui ------------------------*/
@@ -324,6 +354,15 @@ footer{
         margin: 10px 0;
     }
 
+    .portfolioWrapper{
+        margin-left: 50px;
+    }
+
+    #portfolioImagem{
+    height: 300px;
+    width: 600px;
+    margin-top: 30px;
+    }
 
     #contato{
         padding: 30px;
@@ -399,7 +438,21 @@ footer{
     }
 
     #habilidades{
-    padding: 30px;
+        padding: 30px;
+    }
+
+    #titlePortfolio{
+        font-size: 1.5em;
+    }
+     
+    .portfolioWrapper{
+        margin-left: auto;
+    }
+
+    #portfolioImagem{
+        height: 250px;
+        width: 500px;
+        margin-top: 30px;
     }
 
     .footerLinks{
