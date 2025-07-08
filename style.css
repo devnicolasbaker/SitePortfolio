@@ -172,6 +172,97 @@ nav{
     font-size: 1em;
 }
 
+/*------------------------ Portfolio comeca aqui ------------------------*/
+
+#portfolio{
+    background-color: rgb(228, 228, 228);
+}
+
+/*------------------------ Contato comeca aqui ------------------------*/
+#contato{
+    background-color: #dedede;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contactTitleWrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contactIcon{
+    height: 100px;
+    margin-left: 100px;
+}
+
+#contactTitle{
+    color: #012B5C;
+    font-size: 1.2em;
+    margin:0px 100px 0px 150px;
+    text-align: justify;
+    line-height: 1.4;
+}
+
+#formSocialsWrap{
+    display: flex;
+    min-width: 1200px;
+}
+
+form{
+    margin: 50px 300px 0 10px;
+}
+
+.formularioLinha{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.formularioLinha label{
+    color: #000000;
+    min-width: 100px;
+    text-align: left;
+    font-size: 1.2em;
+    flex: 1;
+}
+
+.formularioLinha input, .formularioLinha textarea{
+    width: 400px;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #e3e3e3;
+    color: #000000;
+    flex: 2;
+}
+
+#contactButton{
+    height: 40px;
+    width: 100px;
+    color: rgb(255,255,255);
+    background-color: #012B5C;
+    transition: all 0.3s ease;
+}
+
+#contactButton:hover{
+    background-color: #ADD3FF;
+    color: #000000;
+    cursor: pointer;
+}
+
+#contatoLinks{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 0 50px;
+}
+
+.linkContato{
+    height: 30px;
+    padding: 40px
+}
 
 /*------------------------ footer comeca aqui ------------------------*/
 
@@ -233,6 +324,35 @@ footer{
         margin: 10px 0;
     }
 
+
+    #contato{
+        padding: 30px;
+    }
+
+    #contactTitleWrap{
+        flex-direction: column;
+    }
+
+
+    #contactTitle{
+        font-size: 1.2em;
+        margin-top: 20px;
+    }
+
+    #formSocialsWrap{
+        flex-direction: column;
+    }
+
+    form{
+        margin: 50px auto;
+    }
+
+
+    #contatoLinks{
+        display: inline;  
+        margin: 40px auto;
+    }
+
 }
 
 
@@ -274,10 +394,9 @@ footer{
     }
 
     #sobreHeadshot{
-        height: 350px;
-        width: 350px;
+        height: 250px;
+        width: 250px;
     }
-
 
     #habilidades{
     padding: 30px;
@@ -302,6 +421,37 @@ footer{
 
     .imagensLinksSociais{
         height: 25px;
+    }
+
+    #contato{
+        padding: 20px;
+    }
+
+    #contactTitleWrap{
+        flex-direction: column;
+    }
+
+    #contactIcon{
+        margin: 30px auto;
+    }
+
+    #contactTitle{
+        font-size: 1em;
+        margin: 5px;
+    }
+
+    #formSocialsWrap{
+        flex-direction: column;
+    }
+
+    form{
+        margin: 100px auto 0 auto;
+        max-width: 350px;
+        font-size: 0.8em;
+    }
+
+    .imagensLinksSociais{
+        display: none;
     }
 
 }
